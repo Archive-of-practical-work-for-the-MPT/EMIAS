@@ -133,16 +133,13 @@
             <TextBlock Foreground="{DynamicResource Focus}" FontSize="16" FontFamily="Inter" Grid.Column="0" Margin="16, 16, 0, 16" Text="+7 495 051"/>
             <TextBlock Foreground="{DynamicResource FontPrimary}" Text="Единая служба психологической помощи, круглосуточно. Или позвоните по городскому на номер 051" TextWrapping="Wrap" FontSize="16" FontFamily="Inter" Grid.Column="1" Margin="0, 16, 16, 16" HorizontalAlignment="Right"/>
         </Grid>
-
+        
         <Grid Grid.Row="7" VerticalAlignment="Bottom" Margin="20,5,20,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button materialDesign:ButtonAssist.CornerRadius="0" Content="Сохранить изменения" FontFamily="Inter" BorderThickness="0px" Foreground="#ffffff" FontSize="16" Margin="0,0,5,5" Background="{DynamicResource Focus}"/>
-            <Button materialDesign:ButtonAssist.CornerRadius="0" Content="Добавить новый аккаунт" Grid.Column="1" BorderThickness="0px" Foreground="#ffffff" FontFamily="Inter" FontSize="16" Background="{DynamicResource Focus}" Margin="5,0,5,5"/>
-            <Button materialDesign:ButtonAssist.CornerRadius="0" Content="Выйти из аккаунта" Grid.Column="2" BorderThickness="0px" Foreground="#ffffff" FontFamily="Inter" FontSize="16" Background="{DynamicResource Attent}" Margin="5,0,0,5"/>
         </Grid>
     </Grid>
 </Page>
