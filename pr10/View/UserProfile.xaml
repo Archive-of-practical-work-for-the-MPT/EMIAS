@@ -9,7 +9,7 @@
       d:DesignHeight="850" d:DesignWidth="1180"
       Title="UserProfile" Background="{DynamicResource Primary}">
 
-    <Grid Background="{DynamicResource Primary}" Margin="20, 0, 20, 0">
+    <Grid Background="{DynamicResource Primary}" >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -18,7 +18,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Margin="0,11,0,0">
             <Grid.ColumnDefinitions>
@@ -27,12 +27,12 @@
                 <ColumnDefinition Width="27"/>
                 <ColumnDefinition Width="27"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Профиль" FontSize="20" FontFamily="Inter" Foreground="{DynamicResource FontPrimary}"/>
+            <TextBlock Text="Профиль" FontSize="20" FontFamily="Inter" Foreground="{DynamicResource FontPrimary}" Margin="20, 0, 0, 0"/>
             <Button Grid.Column="1"  Height="12px" Width="12px" Background="{DynamicResource Primary}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="-" Foreground="{DynamicResource FontPrimary}"  FontSize="8"/>
             <Button Grid.Column="2" Height="12px" Width="12px" Background="{DynamicResource Primary}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="◻︎" Foreground="{DynamicResource FontPrimary}" FontSize="10"/>
             <Button Grid.Column="3" Height="12px" Width="12px" Background="{DynamicResource Primary}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="╳"   Foreground="{DynamicResource FontPrimary}" FontSize="8"/>
         </Grid>
-        <Grid Grid.Row="1" MinHeight="150" Margin="0,5,0,5">
+        <Grid Grid.Row="1" MinHeight="150" Margin="20, 5, 20, 5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -46,7 +46,7 @@
                     <RowDefinition Height="20"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Margin="10, 0, 10,0">
+                <Grid Grid.Row="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
@@ -108,7 +108,7 @@
                 </Grid>
             </Grid>
         </Grid>
-        <Grid Grid.Row="2" Margin="0,5,0,5">
+        <Grid Grid.Row="2" Margin="20,5,20,5">
             <TextBlock Text="Тема приложения:" FontSize="16" FontFamily="Inter" Foreground="{DynamicResource FontSecondary}" Background="{DynamicResource Primary}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
         </Grid>
         <Grid Grid.Row="3" Margin="0,5,0,5">
@@ -117,7 +117,7 @@
                 <ComboBoxItem Content="Темная" Background="{DynamicResource Primary}" Foreground="{DynamicResource FontPrimary}"/>
             </ComboBox>
         </Grid>
-        <Grid Grid.Row="4" Background="{DynamicResource Secondary}" Margin="0,5,0,5">
+        <Grid Grid.Row="4" Background="{DynamicResource Secondary}" Margin="20,5,20,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -125,7 +125,7 @@
             <TextBlock Foreground="{DynamicResource Focus}" FontSize="16" FontFamily="Inter" Grid.Column="0" Margin="16, 16, 0, 16" Text="+7 495 539-30-00"/>
             <TextBlock Foreground="{DynamicResource FontPrimary}" Text="Единая служба записи, круглосуточно" TextWrapping="Wrap" FontSize="16" FontFamily="Inter" Grid.Column="1" Margin="0, 16, 16, 16" HorizontalAlignment="Right"/>
         </Grid>
-        <Grid Grid.Row="5" Background="{DynamicResource Secondary}" Margin="0,5,0,5">
+        <Grid Grid.Row="5" Background="{DynamicResource Secondary}" Margin="20,5,20,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -134,15 +134,13 @@
             <TextBlock Foreground="{DynamicResource FontPrimary}" Text="Единая служба психологической помощи, круглосуточно. Или позвоните по городскому на номер 051" TextWrapping="Wrap" FontSize="16" FontFamily="Inter" Grid.Column="1" Margin="0, 16, 16, 16" HorizontalAlignment="Right"/>
         </Grid>
         
-        <Grid Grid.Row="7" VerticalAlignment="Bottom">
+        <Grid Grid.Row="7" VerticalAlignment="Bottom" Margin="20,5,20,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button materialDesign:ButtonAssist.CornerRadius="0" Content="Сохранить изменения" FontFamily="Inter" BorderThickness="0px" FontSize="16" Margin="0,0,5,5" Background="{DynamicResource Focus}"/>
-            <Button materialDesign:ButtonAssist.CornerRadius="0" Content="Добавить новый аккаунт" Grid.Column="1" BorderThickness="0px" FontFamily="Inter" FontSize="16" Background="{DynamicResource Focus}" Margin="5,0,5,5"/>
-            <Button materialDesign:ButtonAssist.CornerRadius="0" Content="Выйти из аккаунта" Grid.Column="2" BorderThickness="0px" FontFamily="Inter" FontSize="16" Background="{DynamicResource Attent}" Margin="5,0,0,5"/>
         </Grid>
     </Grid>
 </Page>
+

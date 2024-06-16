@@ -1,0 +1,69 @@
+﻿<Page x:Class="pr10.View.Reception"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr10.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="850" d:DesignWidth="1180"
+      Title="Reception" Background="{DynamicResource Primary}">
+
+    <Grid Background="{DynamicResource Primary}" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="0,11,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="27"/>
+                <ColumnDefinition Width="27"/>
+                <ColumnDefinition Width="27"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Приемы" FontSize="20" FontFamily="Inter" Foreground="{DynamicResource FontPrimary}" Margin="20, 0, 0, 0"/>
+            <Button Grid.Column="1"  Height="12px" Width="12px" Background="{DynamicResource Primary}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="-" Foreground="{DynamicResource FontPrimary}"  FontSize="8"/>
+            <Button Grid.Column="2" Height="12px" Width="12px" Background="{DynamicResource Primary}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="◻︎" Foreground="{DynamicResource FontPrimary}" FontSize="10"/>
+            <Button Grid.Column="3" Height="12px" Width="12px" Background="{DynamicResource Primary}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="╳"   Foreground="{DynamicResource FontPrimary}" FontSize="8"/>
+        </Grid>
+        <Grid Grid.Row="1" Margin="20, 0, 20, 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0"  Margin="0, 5, 10,5" Background="{DynamicResource Secondary}">
+                <ListBox Background="{DynamicResource Secondary}"/>
+            </Grid>
+            <Grid Grid.Column="1" Margin="0, 5, 0,5" Background="{DynamicResource Primary}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock FontFamily="Inter" FontSize="20" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" />
+                </Grid>
+                <Grid Grid.Row="1" Margin="0,5,0, 5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" FontFamily="Inter" FontSize="16" Foreground="{DynamicResource FontPrimary}" Text="Врач:" Background="{DynamicResource Primary}" />
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Right" TextAlignment="Right"  FontFamily="Inter" FontSize="16" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" />
+                </Grid>
+                <Grid Grid.Row="2" Margin="0,5,0, 20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" FontFamily="Inter" FontSize="16" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" />
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Right"  TextAlignment="Right"  FontFamily="Inter" FontSize="16" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" />
+                </Grid>
+                <Grid Grid.Row="3">
+                    <RichTextBox Background="{DynamicResource Primary}" Foreground="{DynamicResource FontPrimary}"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
