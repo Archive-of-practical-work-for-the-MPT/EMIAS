@@ -10,7 +10,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="logo.ico" />
+    <None Remove="-b.png" />
+    <None Remove="-w.png" />
+    <None Remove="copy.png" />
+    <None Remove="sb.png" />
+    <None Remove="settings.png" />
+    <None Remove="sw.png" />
+    <None Remove="theme.png" />
+    <None Remove="xb.png" />
+    <None Remove="xw.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="-w.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="copy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +43,30 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ThemeLib\ThemeLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="-b.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="sb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="settings.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="sw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="theme.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="xb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="xw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

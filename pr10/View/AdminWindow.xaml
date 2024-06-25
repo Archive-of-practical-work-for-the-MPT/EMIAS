@@ -16,18 +16,19 @@
 
         <Grid Grid.Row="0" Grid.ColumnSpan="2" Background="{DynamicResource Focus}" Height="47">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="27"/>
                 <ColumnDefinition Width="27"/>
                 <ColumnDefinition Width="27"/>
             </Grid.ColumnDefinitions>
-            <Label Height="34px" Width="288px" FontSize="20" Margin="17 0 0 0" FontFamily="Inter" Foreground="{DynamicResource Primary}" HorizontalAlignment="Left">
-                <Bold>ЕМИАС — Администратор </Bold> 
+            <Label Height="34px" Width="288px" FontSize="20" Margin="17 0 0 0" FontFamily="Inter" Foreground="#ffffff" HorizontalAlignment="Left">
+                <Bold>ЕМИАС — Администратор</Bold>
             </Label>
-
-            <Button Grid.Column="1" Height="12px" Width="12px" Background="{DynamicResource Focus}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="-" Foreground="{DynamicResource Primary}"  FontSize="8"/>
-            <Button Grid.Column="2" Height="12px" Width="12px" Background="{DynamicResource Focus}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="◻︎" Foreground="{DynamicResource Primary}" FontSize="10"/>
-            <Button Grid.Column="3" Height="12px" Width="12px" Background="{DynamicResource Focus}" materialDesign:ButtonAssist.CornerRadius="0" BorderThickness="0px" Content="╳"  Foreground="{DynamicResource Primary}" FontSize="8"/>
+            <Image Source="../theme.png" HorizontalAlignment="Left" Height="24px" Width="24px" Grid.Column="1" VerticalAlignment="Center" MouseLeftButtonDown="Image_MouseLeftButtonDown_3"/>
+            <Image Source="../-w.png" Grid.Column="2"  Height="12px" Width="12px"  materialDesign:ButtonAssist.CornerRadius="0" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+            <Image Source="../sw.png" Grid.Column="3" Height="12px" Width="12px" materialDesign:ButtonAssist.CornerRadius="0" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
+            <Image Source="../xw.png" Grid.Column="4" Height="12px" Width="12px" materialDesign:ButtonAssist.CornerRadius="0" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
 
         </Grid>
 
@@ -53,22 +54,22 @@
             </Grid.RowDefinitions>
 
             <!-- Верхний блок -->
-            <ComboBox Grid.Row="1" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Роль пользователя"/>
+            <ComboBox Grid.Row="1" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Роль пользователя"/>
             <Separator Grid.Row="2" Height="1" Width="291.5" Background="{DynamicResource Focus}" />
-            <TextBox Grid.Row="3" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Номер полиса"/>
-            <TextBox Grid.Row="4" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Фамилия"/>
-            <TextBox Grid.Row="5" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Имя"/>
-            <TextBox Grid.Row="6" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Отчество"/>
-            <TextBox Grid.Row="7" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Дата рождения"/>
-            <TextBox Grid.Row="8" Width="362" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Адрес проживания"/>
+            <TextBox Grid.Row="3" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Номер полиса"/>
+            <TextBox Grid.Row="4" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Фамилия"/>
+            <TextBox Grid.Row="5" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Имя"/>
+            <TextBox Grid.Row="6" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Отчество"/>
+            <TextBox Grid.Row="7" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Дата рождения"/>
+            <TextBox Grid.Row="8" Width="362" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint=" Адрес проживания"/>
 
 
             <!-- Нижний блок -->
-            <Button Grid.Row="10" materialDesign:ButtonAssist.CornerRadius="0" Content="Добавить запись" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="{DynamicResource Primary}" Height="28" FontSize="14" Background="{DynamicResource Focus}" />
-            <Button Grid.Row="11" materialDesign:ButtonAssist.CornerRadius="0" Content="Изменить запись" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="{DynamicResource Primary}" Height="28" FontSize="14" Background="{DynamicResource Focus}" />
-            <Button Grid.Row="12" materialDesign:ButtonAssist.CornerRadius="0" Content="Удалить запись" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="{DynamicResource Primary}" Height="28" FontSize="14" Background="{DynamicResource Focus}" />
+            <Button Grid.Row="10" materialDesign:ButtonAssist.CornerRadius="0" Content="Добавить запись" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="#ffffff" Height="28" FontSize="14" Background="{DynamicResource Focus}" />
+            <Button Grid.Row="11" materialDesign:ButtonAssist.CornerRadius="0" Content="Изменить запись" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="#ffffff" Height="28" FontSize="14" Background="{DynamicResource Focus}" />
+            <Button Grid.Row="12" materialDesign:ButtonAssist.CornerRadius="0" Content="Удалить запись" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="#ffffff" Height="28" FontSize="14" Background="{DynamicResource Focus}" />
             <Separator Grid.Row="13" Height="1" Width="291.5" Background="{DynamicResource Focus}" />
-            <Button Grid.Row="14" materialDesign:ButtonAssist.CornerRadius="0" Content="Выйти из аккаунта" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="{DynamicResource Primary}" Height="28" FontSize="14" Background="{DynamicResource Attent}" />
+            <Button Grid.Row="14" materialDesign:ButtonAssist.CornerRadius="0" Content="Выйти из аккаунта" FontFamily="Inter" BorderThickness="0px" Width="362" Foreground="#ffffff" Height="28" FontSize="14" Background="{DynamicResource Attent}" />
 
         </Grid>
 
@@ -83,5 +84,6 @@
         </Grid.ColumnDefinitions>
 
     </Grid>
+
 
 </Window>
