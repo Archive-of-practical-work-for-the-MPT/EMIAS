@@ -24,5 +24,15 @@ namespace pr10.View
         {
             InitializeComponent();
         }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+            App.Theme = "LightTheme";
+        }
+
+        private void ComboBoxItem_Selected_1(object sender, RoutedEventArgs e)
+        {
+            App.Theme = "DarkTheme";
+        }
     }
 }
