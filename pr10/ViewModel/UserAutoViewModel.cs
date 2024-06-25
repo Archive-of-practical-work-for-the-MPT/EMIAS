@@ -47,10 +47,11 @@ namespace pr10.ViewModel
             {
                 var patientData = ApiHelper.GetById(Convert.ToInt64(PolicyNumber), "Patient");
                 var CurrentPatient = JsonConvert.SerializeObject(patientData);
-
-                UserWindow window = new UserWindow();
-                Application.Current.MainWindow.Close();
-                window.Show();
+                if (CurrentPatient != null) {
+                    UserWindow window = new UserWindow();
+                    Application.Current.MainWindow.Close();
+                    window.Show();
+                }
             }
             catch (Exception ex)
             {

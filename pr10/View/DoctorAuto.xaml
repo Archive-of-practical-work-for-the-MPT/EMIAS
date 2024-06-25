@@ -38,8 +38,8 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBox Grid.Row="0" Margin="0,10,0,0" Width="369" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Номер сотрудника"/>
-            <TextBox Grid.Row="1" Margin="0,7,0,0" Width="369" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Пароль"/>
+            <TextBox Grid.Row="0" Margin="0,10,0,0" Width="369" Height="27" Foreground="{DynamicResource FontPrimary}" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Номер сотрудника"/>
+            <TextBox Grid.Row="1" Margin="0,7,0,0" Width="369" Height="27" Foreground="{DynamicResource FontPrimary}" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Пароль"/>
         </Grid>
         <Grid Grid.Row="4" Background="{DynamicResource Primary}">
             <Grid.ColumnDefinitions>

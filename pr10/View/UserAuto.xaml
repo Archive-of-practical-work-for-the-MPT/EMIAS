@@ -37,7 +37,7 @@
             <TextBlock Text="Единая медицинская информационно-аналитическая система" FontSize="16" FontFamily="Inter" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Foreground="#FFFFFF"/>
         </Grid>
         <Grid Grid.Row="3" Background="{DynamicResource Primary}">
-            <TextBox Margin="16,27,16,0" Width="369" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Номер полиса" Text="{Binding PolicyNumber, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox Margin="16,27,16,0" Width="369" Height="27" FontSize="12" Foreground="{DynamicResource FontPrimary}" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Номер полиса" Text="{Binding PolicyNumber, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
         <Grid Grid.Row="4" Background="{DynamicResource Primary}">
             <Grid.ColumnDefinitions>
