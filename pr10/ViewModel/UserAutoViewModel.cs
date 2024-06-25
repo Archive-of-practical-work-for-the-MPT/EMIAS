@@ -45,16 +45,22 @@ namespace pr10.ViewModel
         {
             try
             {
-                var patientData = ApiHelper.GetById(Convert.ToInt64(PolicyNumber), "Patient");
-                var CurrentPatient = JsonConvert.SerializeObject(patientData);
+                var patientData = ApiHelper.GetById(Convert.ToInt64(PolicyNumber), "Patients");
+                var CurrentPatient = JsonConvert.DeserializeObject<Patients>(patientData);
 
-                UserWindow window = new UserWindow();
-                Application.Current.MainWindow.Close();
-                window.Show();
+                if (CurrentPatient.oms == Convert.ToInt64(PolicyNumber))
+                {
+                    AdminWindow window = new AdminWindow();
+                    Application.Current.MainWindow.Close();
+                    window.Show();
+                } else
+                {
+                    MessageBox.Show("Пользователь не найден", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"{CurrentPatient} Пользователь не найден", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Пользователь не найден", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
         }
