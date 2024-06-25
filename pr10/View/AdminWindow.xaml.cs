@@ -23,5 +23,38 @@ namespace pr10.View
         {
             InitializeComponent();
         }
+
+        private void Image_MouseLeftButtonDown_3(object sender, MouseButtonEventArgs e)
+        {
+            if (App.Theme == "LightTheme")
+            {
+                App.Theme = "DarkTheme";
+            }
+            else
+            {
+                App.Theme = "LightTheme";
+            }
+        }
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Close();
+        }
+
+        private void Image_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            if (this.WindowState == WindowState.Normal)
+            {
+                this.WindowState = WindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = WindowState.Normal;
+            }
+        }
+
+        private void Image_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
     }
 }

@@ -23,5 +23,34 @@ namespace pr10.View
         {
             InitializeComponent();
         }
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Close();
+        }
+
+        private void Image_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            if (this.WindowState == WindowState.Normal)
+            {
+                this.WindowState = WindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = WindowState.Normal;
+            }
+        }
+
+        private void Image_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            UserAuto user = new UserAuto();
+            user.Show();
+            Close();
+        }
     }
 }

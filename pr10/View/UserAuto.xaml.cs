@@ -1,4 +1,5 @@
-﻿using pr10.ViewModel;
+﻿using pr10.View;
+using pr10.ViewModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -17,28 +18,41 @@ namespace pr10
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class UserAuto : Window
     {
-        public MainWindow()
+        public UserAuto()
         {
             InitializeComponent();
             DataContext = new UserAutoViewModel();
         }
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            Application.Current.Shutdown(); // Закрытие приложения
+            Close();
         }
 
-        private void MaximizeButton_Click(object sender, RoutedEventArgs e)
+        private void Image_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
         {
             if (this.WindowState == WindowState.Normal)
             {
-                this.WindowState = WindowState.Maximized; // Масштабирование окна
+                this.WindowState = WindowState.Maximized;
             }
             else
             {
-                this.WindowState = WindowState.Normal; // Обратно в нормальное состояние
+                this.WindowState = WindowState.Normal;
             }
+        }
+
+        private void Image_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            DoctorAuto doctorAuto = new DoctorAuto();
+            doctorAuto.Show();
+            Close();
         }
     }
 
