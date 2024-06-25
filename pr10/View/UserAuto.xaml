@@ -35,14 +35,14 @@
             <TextBlock Text="Единая медицинская информационно-аналитическая система" FontSize="16" FontFamily="Inter" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Foreground="#FFFFFF"/>
         </Grid>
         <Grid Grid.Row="3" Background="{DynamicResource Primary}">
-            <TextBox Margin="16,27,16,0" Width="369" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Номер полиса"/>
+            <TextBox Margin="16,27,16,0" Width="369" Height="27" FontSize="12" Background="{DynamicResource Primary}" BorderBrush="#807F7F" BorderThickness="2" materialDesign:HintAssist.Hint="Номер полиса" Text="{Binding PolicyNumber, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
         <Grid Grid.Row="4" Background="{DynamicResource Primary}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" materialDesign:ButtonAssist.CornerRadius="0" Content="Войти" FontFamily="Inter" Margin="15,27,0,0" BorderThickness="0px" Width="177" Foreground="#FFFFFF" Height="27" FontSize="14" Background="{DynamicResource Focus}"/>
+            <Button Grid.Column="0" materialDesign:ButtonAssist.CornerRadius="0" Content="Войти" FontFamily="Inter" Margin="15,27,0,0" BorderThickness="0px" Width="177" Foreground="#FFFFFF" Height="27" FontSize="14" Background="{DynamicResource Focus}" Command="{Binding AuthenticateCommand}"/>
             <Button Grid.Column="1" materialDesign:ButtonAssist.CornerRadius="0" Content="Я врач" FontFamily="Inter" Margin="0,27,15,0" BorderThickness="0px" Width="177" Foreground="#FFFFFF" Height="27" FontSize="14" Background="{DynamicResource Focus}"/>
         </Grid>
     </Grid>
