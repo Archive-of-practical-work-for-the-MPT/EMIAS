@@ -1,0 +1,6 @@
+@pr10_HostAddress = http://localhost:5023
+
+GET {{pr10_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

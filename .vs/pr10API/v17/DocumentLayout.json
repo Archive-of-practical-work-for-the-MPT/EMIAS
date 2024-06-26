@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\researchdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\researchdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\specialitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\specialitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\directionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\directionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\appointmentdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\appointmentdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|c:\\users\\hp\\desktop\\work\\c#\\pr10api\\pr10\\models\\emiascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40349EAF-5D09-4E7A-A880-1E7064B01AC8}|pr10\\api.csproj|solutionrelative:pr10\\models\\emiascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\appsettings.json",
+              "RelativeDocumentMoniker": "pr10\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\appsettings.json",
+              "RelativeToolTip": "pr10\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T21:56:00.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\libman.json",
+              "RelativeDocumentMoniker": "pr10\\libman.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\libman.json",
+              "RelativeToolTip": "pr10\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T21:55:56.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "pr10\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Models\\Admin.cs",
+              "RelativeToolTip": "pr10\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:39:03.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\StatusController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\StatusController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\StatusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:56:27.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpecialitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\SpecialitiesController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\SpecialitiesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\SpecialitiesController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\SpecialitiesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:56:05.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\DoctorsController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:54:33.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResearchDocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\ResearchDocumentsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\ResearchDocumentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\ResearchDocumentsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\ResearchDocumentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:55:42.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:55:20.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DirectionsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\DirectionsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\DirectionsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\DirectionsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\DirectionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:54:05.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentDocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\AppointmentDocumentsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\AppointmentDocumentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\AppointmentDocumentsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\AppointmentDocumentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:53:34.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:52:52.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "pr10\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "pr10\\Controllers\\AdminsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:51:51.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmiasContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Models\\EmiasContext.cs",
+              "RelativeDocumentMoniker": "pr10\\Models\\EmiasContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\work\\c#\\pr10API\\pr10\\Models\\EmiasContext.cs",
+              "RelativeToolTip": "pr10\\Models\\EmiasContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwIYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:47:15.455Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
